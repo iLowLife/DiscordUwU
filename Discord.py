@@ -11,7 +11,7 @@ headers = {
 
 message = " UwU "
 payload = {"content": message}
-r = requests.post(discordBot_GPA,data=payload,headers=discord_header)
+r = requests.post(discordBot_GPA,data=payload,headers=headers)
 
 
 
